@@ -1,3 +1,3 @@
------- LIVE DEMO - HW 6 ------ https://davidfsora.github.io/goit-markup-hw-06/
+------ LIVE DEMO - HW 7 ------ https://davidfsora.github.io/goit-markup-hw-07/
 
 David Francisco Sora Mora Gracias
