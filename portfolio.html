@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__navigation">
+          <div class="logo__container">
+            <a href="./index.html" class="logo" title="WebStudio Home"
+              >WebStudio</a
+            >
+          </div>
+          <nav class="navigation">
+            <ul class="navigation__pages">
+              <li class="navigation__page">
+                <a href="./index.html" class="navigation__link" title="Estudio"
+                  >Estudio</a
+                >
+              </li>
+              <li class="navigation__page">
+                <a
+                  href="./portfolio.html"
+                  class="currentpage navigation__link"
+                  title="Portafolio"
+                  >Portafolio</a
+                >
+              </li>
+              <li class="navigation__page">
+                <a href="#" class="navigation__link" title="Contactos"
+                  >Contactos</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="contact">
+          <ul class="contact__info">
+            <li class="contact__data">
+              <div class="contact__icon">
+                <svg class="icon-envelope" width="20px" height="15px">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+              </div>
+              <div class="contact__mode">
+                <a
+                  class="contact__link"
+                  href="mailto:info@example.com"
+                  title="WebStudio mail"
+                  >info@example.com</a
+                >
+              </div>
+            </li>
+            <li class="contact__data">
+              <div class="contact__icon">
+                <svg class="icon-cellphone" width="13px" height="20px">
+                  <use href="./images/icons.svg#icon-cellphone"></use>
+                </svg>
+              </div>
+              <div class="contact__mode">
+                <a
+                  class="contact__link"
+                  href="tel:+525555296000"
+                  title="WebStudio phone"
+                  >+52 55 5529 6000</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <ul class="container filter">
+          <li>
+            <button class="filter__button" type="button">Todo</button>
+          </li>
+          <li>
+            <button class="filter__button" type="button">Sitios-web</button>
+          </li>
+          <li>
+            <button class="filter__button" type="button">Aplicaciones</button>
+          </li>
+          <li><button class="filter__button" type="button">Diseño</button></li>
+          <li>
+            <button class="filter__button" type="button">Marketing</button>
+          </li>
+        </ul>
+        <ul class="container cards-container">
+          <li class="card">
+            <img
+              src="./images/port_tecnoduck_site.jpg"
+              alt="Tecnoduck"
+              width="366"
+              height="290"
+            />
+            <h3 class="card__description">
+              Technoduck es una plataforma de distribución de coronavirus de
+              última generación. Las empresas utilizan esta plataforma para
+              espionaje digital y ataques a los servidores seguros de la
+              competencia.
+            </h3>
+            <div class="card__body">
+              <h3 class="card__title">Tecnoduck</h3>
+              <p class="card__type">Sitio-web</p>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/port_poster-novsgs.jpg"
+              alt="Póster New Orleans vs. Golden Star"
+              width="366"
+              height="290"
+            />
+            <h3 class="card__description">
+              Technoduck es una plataforma de distribución de coronavirus de
+              última generación. Las empresas utilizan esta plataforma para
+              espionaje digital y ataques a los servidores seguros de la
+              competencia.
+            </h3>
+            <div class="card__body">
+              <h3 class="card__title">Póster New Orleans vs. Golden Star</h3>
+              <p class="card__type">Diseño</p>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/port_seafood_restaurant.jpg"
+              alt="Restaurante Seafood"
+              width="366"
+              height="290"
+            />
+            <h3 class="card__description">
+              Technoduck es una plataforma de distribución de coronavirus de
+              última generación. Las empresas utilizan esta plataforma para
+              espionaje digital y ataques a los servidores seguros de la
+              competencia.
+            </h3>
+            <div class="card__body">
+              <h3 class="card__title">Restaurante Seafood</h3>
+              <p class="card__type">Aplicaciones</p>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/port_prime_project.jpg"
+              alt="Proyecto Prime"
+              width="366"
+              height="290"
+            />
+            <h3 class="card__description">
+              Technoduck es una plataforma de distribución de coronavirus de
+              última generación. Las empresas utilizan esta plataforma para
+              espionaje digital y ataques a los servidores seguros de la
+              competencia.
+            </h3>
+            <div class="card__body">
+              <h3 class="card__title">Proyecto Prime</h3>
+              <p class="card__type">Marketing</p>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/port_boxes_project.jpg"
+              alt="Proyecto Cajas"
+              width="366"
+              height="290"
+            />
+            <h3 class="card__description">
+              Technoduck es una plataforma de distribución de coronavirus de
+              última generación. Las empresas utilizan esta plataforma para
+              espionaje digital y ataques a los servidores seguros de la
+              competencia.
+            </h3>
+            <div class="card__body">
+              <h3 class="card__title">Proyecto Cajas</h3>
+              <p class="card__type">Aplicaciones</p>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/port_inspiration_project.jpg"
+              alt="La inspiración no tiene límites"
+              width="366"
+              height="290"
+            />
+            <h3 class="card__description">
+              Technoduck es una plataforma de distribución de coronavirus de
+              última generación. Las empresas utilizan esta plataforma para
+              espionaje digital y ataques a los servidores seguros de la
+              competencia.
+            </h3>
+            <div class="card__body">
+              <h3 class="card__title">La inspiración no tiene límites</h3>
+              <p class="card__type">Sitio web</p>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/port_limited_edition.jpg"
+              alt="Edición Limitada"
+              width="366"
+              height="290"
+            />
+            <h3 class="card__description">
+              Technoduck es una plataforma de distribución de coronavirus de
+              última generación. Las empresas utilizan esta plataforma para
+              espionaje digital y ataques a los servidores seguros de la
+              competencia.
+            </h3>
+            <div class="card__body">
+              <h3 class="card__title">Edición Limitada</h3>
+              <p class="card__type">Diseño</p>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/port_lab_project.jpg"
+              alt="Proyecto LAB"
+              width="366"
+              height="290"
+            />
+            <h3 class="card__description">
+              Technoduck es una plataforma de distribución de coronavirus de
+              última generación. Las empresas utilizan esta plataforma para
+              espionaje digital y ataques a los servidores seguros de la
+              competencia.
+            </h3>
+            <div class="card__body">
+              <h3 class="card__title">Proyecto LAB</h3>
+              <p class="card__type">Marketing</p>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/port_growing_business.jpg"
+              alt="Negocio en crecimiento"
+              width="366"
+              height="290"
+            />
+            <h3 class="card__description">
+              Technoduck es una plataforma de distribución de coronavirus de
+              última generación. Las empresas utilizan esta plataforma para
+              espionaje digital y ataques a los servidores seguros de la
+              competencia.
+            </h3>
+            <div class="card__body">
+              <h3 class="card__title">Negocio en Crecimiento</h3>
+              <p class="card__type">Aplicaciones</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <section class="container footer">
+        <div class="footer__container">
+          <div>
+            <a href="./index.html" class="logo" title="WebStudio Home"
+              >WebStudio</a
+            >
+            <address>
+              <ul>
+                <li>
+                  <a
+                    class="footer__location"
+                    href="https://goo.gl/maps/7iqiP8JuPV7GnrKV9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+                  >
+                </li>
+                <li>
+                  <a class="footer__link" href="tel:+525555296000"
+                    >+52 55 5529 6000</a
+                  >
+                </li>
+                <li>
+                  <a class="footer__link" href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="socialmedia">
+            <p class="socialmedia__title">Encuéntranos en:</p>
+            <ul class="socialmedia__items">
+              <li class="socialmedia__item">
+                <svg class="icon-instagram" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </li>
+              <li class="socialmedia__item">
+                <svg class="icon-twitter" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </li>
+              <li class="socialmedia__item">
+                <svg class="icon-facebook" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </li>
+              <li class="socialmedia__item">
+                <svg class="icon-linkedin" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="subscription">
+          <div>
+            <p class="subscription__label">Suscríbase al boletín informativo</p>
+          </div>
+          <div class="subscription__container">
+            <form name="subscribe-form" class="subscription__form" novalidate>
+              <label>
+                <input
+                  type="email"
+                  name="email"
+                  class="subscription__input"
+                  placeholder="Correo electrónico"
+                  required
+                />
+              </label>
+              <button type="submit" class="subscription__button">
+                Suscríbase<svg class="send-icon" width="24px" height="24px">
+                  <use href="./images/icons.svg#send-icon"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
